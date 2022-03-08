@@ -145,6 +145,8 @@ input[type=text] {
 textarea {
     width: 950px;
     height: 100px;
+    max-width: 950px;
+    max-height: 500px;
 }
 
 #question {
