@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    line-height: 100px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size:large;
+    font-weight: 600;
+}
+p {
+    line-height: 20px;
+}
+
+header {
+    background-color: #222;
+    padding: 15px;
+}
+
+ul li a {
+    text-align: center;
+    display:block;
+    padding: 14px 16px;
+    color: #c78c06;
+    text-decoration: none;
+}
+
+li .active {
+    background-color:#c78c06 ;
+    color: #222;
+}
+
+li a:hover:not(.active) {
+    background-color:#c78c06;
+    color:#222 ;
+  }
+
+
+.logo {
+    
+    background-color: #c78c06;
+}
+
+.search {
+    padding-left: 25%;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+.hero {
+    background-image: url(../images/main-banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+
+.hero-text {
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+    text-align: left;
+    position:relative;
+    top: 20%;
+}
+
+
+.hero-text p {
+    color: white;
+    line-height: 30px;
+}
+
+.hero-text button {
+    background-color: #c78c06;
+    padding: 30px;
+    font-weight: 600;
+}
+
+.hero-text button i {
+    padding-left: 10px;
+}
+
+.aboutus {
+    background-color:#ffe6ac ;
+    padding: 15px;
+}
+
+.aboutus img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.services {
+    padding: 15px;
+}
+
+.services img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.services button {
+    background-color:#222;
+    padding: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+.services button i {
+    padding-left: 20px;
+}
+
+.services-text {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+    text-align: left;
+    background-position: 0px;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.vision button {
+    background-color: rgba(0,0,0,0.5);
+    border: #c78c06 1px solid;
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.vision button i {
+    padding-left: 15px;
+}
+
+.team {
+    padding: 15px;
+}
+
+.team img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.block-text {
+    background-color:#ffe6ac;
+    padding: 15px;
+}
+
+.block-text h3 {
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+.block-text h4 {
+    border-bottom:#c78c06 3px solid;
+    padding-bottom: 5px;
+}
+
+.block-text p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact input {
+    width: 560px;
+}
+
+.contact #message{
+    height: 150px;
+}
+
+.contact .send {
+    width: 50px;
+    background-color:#222;
+    color: #c78c06;
+}
+
+th {
+    background-color: #ffe6ac;
+    color:#222;
+    padding: 25px;
+    width: 760px;
+    border: #222 1px solid;
+}
+
+td {
+    width: 760px;
+    padding: 25px;
+    border: #222 1px solid;
+}
+
+iframe {
+width: 600px;
+height: 450px; 
+border:0; 
+}
+
+footer {
+    background-color: #222;
+    color:#c78c06;
+    padding: 15px;
+    text-align: left;
+}
+
+footer p {
+    padding-top: 15px;
+}
+@media screen and (min-width: 760px) {
+    body {
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+
+    header li {
+        float: left;
+        padding: 15px;
+    }
+
+    .logo {
+        background-color:#222;
+    }
+
+    .hero-text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .aboutus {
+        height: 260px;
+    }
+    .aboutus img {
+        width: 500px;
+        float: left;
+        padding-left: 30px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+
+    .team img {
+        margin-top: 0%;
+    }
+    .grid {
+        clear: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+        
+    }
+
+    .grid :nth-child(1) {
+        grid-column: 1 / 4;
+    }
+    .grid :nth-child(2) {
+        grid-column: 4 / 7;
+    }
+    .grid :nth-child(3) {
+        grid-column: 1 / 3;
+    }
+    .grid :nth-child(4) {
+        grid-column: 3 / 5;
+    }
+    .grid :nth-child(5) {
+        grid-column: 5 / 7;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "one two"
+        "four three "
+    }
+
+    .grid-container :nth-child(1) {
+        grid-area: one;
+    }
+    .grid-container :nth-child(2) {
+        grid-area: two;
+    }
+    .grid-container :nth-child(3) {
+        grid-area: three;
+    }
+    .grid-container :nth-child(4) {
+        grid-area: four;
+    }
+
+    
+
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        grid-template-areas: 
+        "contactus contactus"
+        "form location"
+        "hour hour"
+    }
+    .contact :nth-child(1) {
+        grid-area: contactus;
+    }
+    .contact :nth-child(2) {
+        grid-area: form;
+    }
+    .contact :nth-child(3) {
+        grid-area: hour;
+    }
+    .contact :nth-child(4) {
+        grid-area: location;
+    }
+
+    footer {
+        padding-left: 100px;
+        width: 1200px;
+    }
+}
